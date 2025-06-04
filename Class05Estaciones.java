@@ -19,7 +19,7 @@ public class Class05Estaciones {
         }else if (numero == 4) {
             System.out.println("Es Otoño");
         }else{
-            System.err.println("Número Incorrecto");
+            System.err.println("Opción Incorrecto");
         }
     }
 }
