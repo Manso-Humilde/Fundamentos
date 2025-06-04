@@ -17,6 +17,6 @@ public class Clase04PositivoNegativo {
         }else{
             System.out.println("El número es NEGATIVO");
         }
-        System.out.println("Fin del Progrma");
+        System.out.println("Fin del Programa");
     }
 }
