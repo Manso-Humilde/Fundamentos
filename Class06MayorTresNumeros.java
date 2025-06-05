@@ -13,6 +13,7 @@ public class Class06MayorTresNumeros {
         System.out.println("Introducir número 3");
         dato = teclado.nextLine();
         int num3 = Integer.parseInt(dato);
+        
         int mayor = 0;
         int menor = 0;
         int intermedio = 0;
