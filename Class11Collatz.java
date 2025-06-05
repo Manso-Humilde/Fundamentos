@@ -13,7 +13,7 @@ public class Class11Collatz {
         while (numero != 1) {
             if (numero % 2 == 0) {  //el if comprueba que el numero es par.
                 numero = numero / 2;
-            } else{                 // el else si es impar.
+            } else{                 // else comprueba si es impar.
                 numero = numero * 3 + 1;
             }
             System.out.println(numero);
