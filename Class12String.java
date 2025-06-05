@@ -12,7 +12,7 @@ public class Class12String {
         System.out.println("indexOf(): " + texto.indexOf('a', 4));  //busca a desde la posición 4
         System.out.println("lastIndexOf: " + texto.lastIndexOf('a')); // me devuelve la posición
         System.out.println("lastIndexOf: " + texto.lastIndexOf('a', 17)); //me devuelve indice inferior 
-        
-        System.out.println("substring(5)" + texto.substring(2, 4));
+        System.out.println("substring(5)" + texto.substring(2, 4));// me devuelve los cuatros a partei del segundo
+        //System.out.println("startsWith: " + texto.startsWith('D'));
     }
 }
