@@ -22,7 +22,7 @@ public class Class8CalcularSalario {
         if ( importeHoras <= 250) {
             retencion = 0;
         }else if (importeHoras >= 250){
-            retencion = (importeHoras * 0.75);
+            
         }
 
 
