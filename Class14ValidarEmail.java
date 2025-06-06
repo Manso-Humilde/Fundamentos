@@ -20,11 +20,13 @@ public class Class14ValidarEmail {
             System.out.println("Necesita punto despues @de ");
         } else if (email.indexOf(".") < (email.indexOf("@"))) {
             System.out.println("Necesitamos punto despues de @");
-        // } else{
-        //     int ultimoPunto = email.lastIndexOf(".");
-        //     String 
-        // }
-        // else{
+            else{
+                int ultimoPunto = email.lastIndexOf(".");
+                String dominio = email.substring(ultimoPunto + 1);
+                if (dominio.length() >= 2 && dominio.length() <= 3){
+                    System.out.println("El email es CORRECTO!!!");
+                }else{
+                    System.out.println("El dominio debe ser de 2 a 3 caracteres");
             System.out.println("Email aceptado");
         }
     }
