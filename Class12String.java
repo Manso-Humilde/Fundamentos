@@ -14,5 +14,13 @@ public class Class12String {
         System.out.println("lastIndexOf: " + texto.lastIndexOf('a', 17)); //me devuelve indice inferior 
         System.out.println("substring(5)" + texto.substring(2, 4));// me devuelve los cuatros a partei del segundo
         //System.out.println("startsWith: " + texto.startsWith('D'));
+
+        System.out.println(texto);
+        for(int i = 0; i < texto.length(); i++){
+            char letra = texto.charAt(i);
+            System.out.println("letra (" + i + "):" + letra); 
+        }
+
+        
     }
 }
