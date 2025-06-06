@@ -1,9 +1,7 @@
-
 import java.util.Scanner;
-import java.lang.Math;
 
-public class Clase16Narcisista {
-    public static void main(String[] args) {
+public class Class16Narcisista {
+     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduce un número");
         String textoNumero = teclado.nextLine();
@@ -15,9 +13,6 @@ public class Clase16Narcisista {
         }
 
         int solucion = Math.pow(solucion, solucion)
-
-
-
 
     }
 }
