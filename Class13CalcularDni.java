@@ -33,8 +33,5 @@ public class Class13CalcularDni {
             System.out.println("Su letra del DNI  es " + letra);
         }
 
-        
-        
-
     }
 }
