@@ -6,7 +6,6 @@ public class Class17ValidarIsbn {
         System.out.println("Introdusca ISNBN");
         String isbn = teclado.nextLine();
         int longitud = isbn.length();
-        int operacion = 0;
         int digito = 0;
 
         if (isbn.length() == 10) {
@@ -15,7 +14,7 @@ public class Class17ValidarIsbn {
                 char letra = isbn.charAt(i);
                 String aux = String.valueOf(letra);
                 int numero = Integer.parseInt(aux);
-                operacion = numero * (i + 1);
+                int operacion = numero * (i + 1);
                 suma += operacion;
                 }
                 if (suma % 11 == 0) {
