@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+//cambiando algo
 public class Class16Narcisista {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
