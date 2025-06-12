@@ -4,7 +4,7 @@ public class Class27MetodoNarcisista {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        for (int i = 1; i <= 2000; i++) {
+        for (int i = 1; i <= 20000; i++) {
             if (esNarcisista(i)) {
                 System.out.println(i);
         }
