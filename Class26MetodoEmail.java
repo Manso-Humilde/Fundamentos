@@ -7,8 +7,8 @@ public class Class26MetodoEmail {
         System.out.println("Validando un mail");
         System.out.println("Introduzca un email");
         String dato = teclado.nextLine();
-        boolean respuesta = 
-            validarEmail(dato);
+        boolean respuesta = validarEmail(dato);
+        
         if (respuesta == true){
             System.out.println("El email está correcto");
         }else{
